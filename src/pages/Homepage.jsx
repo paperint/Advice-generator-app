@@ -41,7 +41,7 @@ function Homepage() {
         <div className="absolute w-full text-center -bottom-7">
           <button
             onClick={() => getAdvice()}
-            className="p-4 rounded-full bg-NeonGreen"
+            className="p-4 rounded-full bg-NeonGreen hover:shadow-NeonGreen hover:drop-shadow-lg hover:shadow-[0px_22px_70px_4px_rgba(0,0,0,0.56)] hover:transition-shadow"
           >
             <img src={Dice} alt="random" />
           </button>
